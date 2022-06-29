@@ -1,0 +1,14 @@
+#name of this yaml file
+name: Run Shell Command
+# whenever the below command executed, will trigger the workflow
+on: [push]
+
+# jobs to define actions within
+jobs:
+  run-shell-command:
+    # define server to run on
+    runs-on: ubuntu-latest
+    # define steps
+    steps:
+      - name: Echo a String
+        run: "Hello guys. This is first github action workflow file!"
