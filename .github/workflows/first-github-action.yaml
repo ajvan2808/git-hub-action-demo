@@ -11,4 +11,4 @@ jobs:
     # define steps
     steps:
       - name: Echo a String
-        run: "Hello guys. This is first github action workflow file!"
+        run: echo "Hello guys. This is first github action workflow file!"
